@@ -1,0 +1,103 @@
+# depslib dependency file v1.0
+1510345696 source:c:\users\aslam\desktop\c++\buttonsandfonts\character.cpp
+	"Character.h"
+	<iostream>
+
+1510320828 c:\users\aslam\desktop\c++\buttonsandfonts\character.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Point.h"
+
+1476082006 c:\users\aslam\desktop\c++\buttonsandfonts\ltexture.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+
+1510321790 c:\users\aslam\desktop\c++\buttonsandfonts\point.h
+
+1476081971 source:c:\users\aslam\desktop\c++\buttonsandfonts\ltexture.cpp
+	"LTexture.h"
+
+1510345587 source:c:\users\aslam\desktop\c++\buttonsandfonts\main.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	"LTexture.h"
+	"word.h"
+	"Button.h"
+
+1510345189 source:c:\users\aslam\desktop\c++\buttonsandfonts\word.cpp
+	"word.h"
+
+1509905022 c:\users\aslam\desktop\c++\buttonsandfonts\word.h
+	"LTexture.h"
+	"Character.h"
+
+1510341656 source:c:\users\aslam\desktop\c++\buttonsandfonts\button.cpp
+	"Button.h"
+	"word.h"
+	<vector>
+	<sstream>
+
+1510336311 c:\users\aslam\desktop\c++\buttonsandfonts\button.h
+	"LTexture.h"
+	"Point.h"
+
+1510345698 source:c:\users\reeba aslam\desktop\buttonsandfonts\character.cpp
+	"Character.h"
+	<iostream>
+
+1510320830 c:\users\reeba aslam\desktop\buttonsandfonts\character.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Point.h"
+
+1476082008 c:\users\reeba aslam\desktop\buttonsandfonts\ltexture.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+
+1510321792 c:\users\reeba aslam\desktop\buttonsandfonts\point.h
+
+1476081972 source:c:\users\reeba aslam\desktop\buttonsandfonts\ltexture.cpp
+	"LTexture.h"
+
+1510390566 source:c:\users\reeba aslam\desktop\buttonsandfonts\main.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	"LTexture.h"
+	"word.h"
+	"Button.h"
+
+1509905024 c:\users\reeba aslam\desktop\buttonsandfonts\word.h
+	"LTexture.h"
+	"Character.h"
+
+1510336312 c:\users\reeba aslam\desktop\buttonsandfonts\button.h
+	"LTexture.h"
+	"Point.h"
+
+1510345190 source:c:\users\reeba aslam\desktop\buttonsandfonts\word.cpp
+	"word.h"
+
+1510391335 source:c:\users\reeba aslam\desktop\buttonsandfonts\button.cpp
+	"Button.h"
+	"word.h"
+	<vector>
+	<sstream>
+

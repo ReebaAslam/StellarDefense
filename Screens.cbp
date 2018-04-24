@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Screens" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Screens" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Screens" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/SDL2/include/SDL2" />
+		</Compiler>
+		<Linker>
+			<Add option="-lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_mixer" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/SDL2/lib" />
+		</Linker>
+		<Unit filename="Ammunition.cpp" />
+		<Unit filename="Ammunition.hpp" />
+		<Unit filename="Asteroid.cpp" />
+		<Unit filename="Asteroid.h" />
+		<Unit filename="Beam.cpp" />
+		<Unit filename="Beam.hpp" />
+		<Unit filename="BlackHole.cpp" />
+		<Unit filename="BlackHole.h" />
+		<Unit filename="Bullet.cpp" />
+		<Unit filename="Bullet.hpp" />
+		<Unit filename="Button.cpp" />
+		<Unit filename="Button.h" />
+		<Unit filename="Character.cpp" />
+		<Unit filename="Character.h" />
+		<Unit filename="Chemical.cpp" />
+		<Unit filename="Chemical.h" />
+		<Unit filename="Enemy.hpp" />
+		<Unit filename="Explosion.cpp" />
+		<Unit filename="Explosion.hpp" />
+		<Unit filename="GameManager.cpp" />
+		<Unit filename="GameManager.h" />
+		<Unit filename="GameObject.cpp" />
+		<Unit filename="GameObject.hpp" />
+		<Unit filename="GlobalFunctions.h" />
+		<Unit filename="HealthBar.cpp" />
+		<Unit filename="HealthBar.hpp" />
+		<Unit filename="InventoryScreen.cpp" />
+		<Unit filename="InventoryScreen.h" />
+		<Unit filename="LTexture.cpp" />
+		<Unit filename="LTexture.h" />
+		<Unit filename="Planet.cpp" />
+		<Unit filename="Planet.h" />
+		<Unit filename="Plant.cpp" />
+		<Unit filename="Plant.h" />
+		<Unit filename="Point.h" />
+		<Unit filename="Resource.cpp" />
+		<Unit filename="Resource.h" />
+		<Unit filename="Screen.h" />
+		<Unit filename="SpaceShip.cpp" />
+		<Unit filename="SpaceShip.hpp" />
+		<Unit filename="Star.cpp" />
+		<Unit filename="Star.h" />
+		<Unit filename="Water.cpp" />
+		<Unit filename="Water.h" />
+		<Unit filename="enemy.cpp" />
+		<Unit filename="excerptScreen.cpp" />
+		<Unit filename="excerptScreen.h" />
+		<Unit filename="gameScreen.cpp" />
+		<Unit filename="gameScreen.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="menuScreen.cpp" />
+		<Unit filename="menuScreen.h" />
+		<Unit filename="moneyBag.cpp" />
+		<Unit filename="moneyBag.h" />
+		<Unit filename="pauseScreen.cpp" />
+		<Unit filename="pauseScreen.h" />
+		<Unit filename="quitScreen.cpp" />
+		<Unit filename="quitScreen.h" />
+		<Unit filename="splashScreen.cpp" />
+		<Unit filename="splashScreen.h" />
+		<Unit filename="word.cpp" />
+		<Unit filename="word.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
